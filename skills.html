@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Week 8 Styling CSS </title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--  main section start -->
+    <main class="container">
+        <h2 id="container-title"> Skills Section Page </h2>
+
+        <!-- random img from picsum -->
+        <div class="img">
+            <img src="https://picsum.photos/190" alt="img1">
+        </div>
+
+        <p>This page contains skills the author of this website is learning in the bootcamp</p>
+        
+        <!-- tasks for this section -->
+        <div class="tasks">
+            <h4 id="task-title">Tasks to be Completed</h4>
+            <ol>
+                <li>Completed Debugging and Testing</li>
+                <li>Created Repos in GitHub</li>
+                <li>Finished Unit 6 Final Project</li>
+            </ol>
+        </div>
+
+        <!-- random img from picsum -->
+       <div class="img">
+        <img src="https://picsum.photos/200" alt="img2">
+       </div>
+
+       <!--  section table -->
+        <table class="table">
+            <tr class="row row-header">
+                <th>Week</th>
+                <th>Unit </th>
+                <th>Task</th>
+            </tr>
+            <tr class="row">
+                <td>Week 9</td>
+                <td> Bootstrap</td>
+                <td>Using Bootstrap as the css framework</td>
+            </tr>
+            <tr class="row">
+                <td>Week 10</td>
+                <td> JavaScript & DOM Manipulation</td>
+                <td>Dom Manipulation using css selectors and others</td>
+            </tr>
+            <tr class="row ">
+                <td>Week 11</td>
+                <td> AJAX and JQuery</td>
+                <td> learning how to connect with servers without reloading pages</td>
+            </tr>
+        </table>
+
+        <!-- random img from picsum -->
+        <div class="img">
+            <img src="https://picsum.photos/180" alt="img3">
+        </div>
+        
+        <!--  form section-->
+        <form action="#">
+            <h4>Reach out</h4>
+            <label for="name">
+                <input type="text" id="name" placeholder="Name">
+            </label> <br><br>
+
+            <label for="email">
+                <input type="email" id="email" placeholder="Email">
+            </label><br><br>
+
+            <label for="password">
+                <input type="password" id="password" placeholder="password">
+            </label><br><br>
+
+            <label for="submit">
+                <input type="submit" name="submit" value="Submit" id="submit">
+            </label>
+        </form>
+    </main>
+    <!-- main section end -->
+    
+</body>
+</html>
+
 
